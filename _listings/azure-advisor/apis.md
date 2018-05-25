@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Advisor
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,9 +25,9 @@ apis:
   tags: Recommendations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorgeneraterecommendations-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorgeneraterecommendations-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorgeneraterecommendations-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorgeneraterecommendations-post-openapi.md
 - name: Azure Advisor API Get Recommendation
   x-api-slug: azure-advisor-api
   description: Retrieves the status of the recommendation computation or generation
@@ -39,9 +39,9 @@ apis:
   tags: Recommendations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorgeneraterecommendationsoperationid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorgeneraterecommendationsoperationid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorgeneraterecommendationsoperationid-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorgeneraterecommendationsoperationid-get-openapi.md
 - name: Azure Advisor API List Recommendations
   x-api-slug: azure-advisor-api
   description: Obtains cached recommendations for a subscription. The recommendations
@@ -52,9 +52,9 @@ apis:
   tags: Recommendations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorrecommendations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorrecommendations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorrecommendations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorrecommendations-get-openapi.md
 - name: Azure Advisor API List Operations
   x-api-slug: azure-advisor-api
   description: Lists all the available Advisor REST API operations.
@@ -64,9 +64,9 @@ apis:
   tags: Operations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/providersmicrosoftadvisoroperations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/providersmicrosoft-advisoroperations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/providersmicrosoftadvisoroperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/providersmicrosoft-advisoroperations-get-openapi.md
 - name: Azure Advisor API Get Suppressions
   x-api-slug: azure-advisor-api
   description: Obtains the details of a suppression.
@@ -76,9 +76,9 @@ apis:
   tags: Suppressions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoftadvisorrecommendationsrecommendationidsuppressionsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoft-advisorrecommendationsrecommendationidsuppressionsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoftadvisorrecommendationsrecommendationidsuppressionsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoft-advisorrecommendationsrecommendationidsuppressionsname-get-openapi.md
 - name: Azure Advisor API Create Suppressions
   x-api-slug: azure-advisor-api
   description: Enables the snoozed or dismissed attribute of a recommendation. The
@@ -90,7 +90,7 @@ apis:
   tags: Suppressions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoftadvisorrecommendationsrecommendationidsuppressionsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoft-advisorrecommendationsrecommendationidsuppressionsname-put-openapi.md
 - name: Azure Advisor API Delete Suppressions
   x-api-slug: azure-advisor-api
   description: Enables the activation of a snoozed or dismissed recommendation. The
@@ -101,7 +101,7 @@ apis:
   tags: Suppressions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoftadvisorrecommendationsrecommendationidsuppressionsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoft-advisorrecommendationsrecommendationidsuppressionsname-delete-openapi.md
 - name: Azure Advisor API Get Recommendations
   x-api-slug: azure-advisor-api
   description: Obtains details of a cached recommendation.
@@ -111,9 +111,9 @@ apis:
   tags: Recommendations
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoftadvisorrecommendationsrecommendationid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoft-advisorrecommendationsrecommendationid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoftadvisorrecommendationsrecommendationid-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/resourceuriprovidersmicrosoft-advisorrecommendationsrecommendationid-get-openapi.md
 - name: Azure Advisor API List Suppressions
   x-api-slug: azure-advisor-api
   description: Retrieves the list of snoozed or dismissed suppressions for a subscription.
@@ -124,7 +124,7 @@ apis:
   tags: Suppressions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoftadvisorsuppressions-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/subscriptionssubscriptionidprovidersmicrosoft-advisorsuppressions-get-openapi.md
 - name: Azure Advisor API
   x-api-slug: azure-advisor-api
   description: Azure Advisor is a personalized recommendation engine that helps you

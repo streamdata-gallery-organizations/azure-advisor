@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Advisor
-x-complete: 1
+x-complete: 0
 info:
-  title: Azure Advisor API
-  description: azure-advisor-is-a-personalized-recommendation-engine-that-helps-you-follow-azure-best-practices--it-analyzes-your-azure-resource-configuration-and-usage-telemetry-then-provides-recommendations-that-can-reduce-costs-and-improve-the-performance-security-and-reliability-of-your-applications-
+  title: Azure Advisor API Get Recommendations
+  description: Obtains details of a cached recommendation.
   version: "2017-04-19"
 host: management.azure.com
 basePath: /
@@ -191,28 +191,17 @@ paths:
           description: OK
       tags:
       - Recommendations
-  /subscriptions/{subscriptionId}/providers/Microsoft.Advisor/suppressions:
-    get:
-      summary: List Suppressions
-      description: Retrieves the list of snoozed or dismissed suppressions for a subscription.
-        The snoozed or dismissed attribute of a recommendation is referred to as a
-        suppression.
-      operationId: Suppressions_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-advisorsuppressions-get
-      parameters:
-      - in: query
-        name: $skipToken
-        description: The page-continuation token to use with a paged version of this
-          API
-      - in: query
-        name: $top
-        description: The number of suppressions per page if a paged version of this
-          API is being used
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Suppressions
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
