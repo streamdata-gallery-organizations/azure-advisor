@@ -7,10 +7,10 @@ description: Azure Advisor is a personalized recommendation engine that helps yo
   security, and reliability of your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure Advisor
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/apis.md
 specificationVersion: "0.14"
 apis:
