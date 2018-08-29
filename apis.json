@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Advisor",
+	"description": "This is a repository of azure advisor APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-advisor.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-advisor.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Advisor",
+			"x-api-slug": "azure-advisor",
+			"description": "Azure Advisor is a personalized recommendation engine that helps you follow Azure best practices. It analyzes your Azure resource configuration and usage telemetry, then provides recommendations that can reduce costs and improve the performance, security, and reliability of your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/advisor/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Advisor",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Advisor",
+	"include": [
+		{
+			"name": "Azure Advisor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-advisor/master/_listings/azure-advisor/apis.yaml"
+		}
+	]
+}
